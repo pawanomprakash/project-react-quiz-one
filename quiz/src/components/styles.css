@@ -1,6 +1,12 @@
 body{
     background-color: #47398d;
 }
+#resultComponent,#homeComponent,#quizComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* Home Component */
 #QuizAPPheading{
     color:white;
@@ -87,6 +93,7 @@ body{
     border-width: 5px ;
     border-color: #008001 #153e15 #153e15 #008001;
 }
+
 
 
 
